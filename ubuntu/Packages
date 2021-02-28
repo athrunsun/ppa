@@ -1,0 +1,51 @@
+Package: code
+Version: 1.53.2-1613044664
+Architecture: amd64
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Installed-Size: 266984
+Depends: libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1, libgbm1
+Conflicts: visual-studio-code
+Replaces: visual-studio-code
+Provides: visual-studio-code
+Filename: ./code_amd64.deb
+Size: 69078024
+MD5sum: a16484f58d84a2a04b8943b8d376ab37
+SHA1: 6f9caaa6f2eaac0c7242eac1adc927aa5e409402
+SHA256: 95eeace5f50aae9df2e6bfaff5550116e3f95b86337646b386216762691b0c49
+Section: devel
+Priority: optional
+Homepage: https://code.visualstudio.com/
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://code.visualstudio.com/docs/setup/linux for installation instructions and FAQ.
+
+Package: sublime-merge
+Version: 2047
+Architecture: amd64
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Installed-Size: 19128
+Depends: libgtk-3-0
+Filename: ./sublime-merge_amd64.deb
+Size: 4539492
+MD5sum: 581ac32cecbb96527256581d6ed5cfca
+SHA1: 0c17d15043202e9e0b2ad9ea7c4c5593eaa96907
+SHA256: c01f3d102e49e940f7ea42cd37d1e3da8e0cba04eb22aed03bc81757c672b6c5
+Section: devel
+Priority: optional
+Description: Sublime Merge is a Git Client, from the makers of Sublime Text
+Build-Depends: libgtk-3-0
+
+Package: sublime-text
+Version: 3211
+Architecture: amd64
+Maintainer: Sublime HQ Pty Ltd <support@sublimetext.com>
+Installed-Size: 34033
+Depends: libgtk-3-0
+Filename: ./sublime-text_amd64.deb
+Size: 9835156
+MD5sum: b5648b71a04c6df453aa6d11f0932377
+SHA1: 76d4ad5bba5e4afa60ca6f5f877ff9c573b39f23
+SHA256: 8b2c6dc1178b1f0aa861e76b21719747c1587482c014e12db10ca4424b539c34
+Section: editors
+Priority: optional
+Description: Sublime Text is a sophisticated text editor for code, markup and prose
+
